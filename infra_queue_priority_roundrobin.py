@@ -134,9 +134,6 @@ def demo_priority_queue():
         ordem.append((item, pr))
         print(f"pop() -> {item} (prioridade {pr})")
 
-    # Observação (resumo)
-    # Como 1 < 2 < 3, todos os 'Alta' saem primeiro, na ordem de chegada (estabilidade),
-    # depois 'Média' e por fim 'Baixa'.
     print("\nObservações:")
     print("- Itens de prioridade '1' (Alta) foram atendidos antes dos de prioridade '2' e '3'.")
     print("- Dentro da mesma prioridade, a estrutura mantém a ordem de inserção (estável).")
